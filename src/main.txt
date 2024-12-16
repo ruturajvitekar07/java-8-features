@@ -1,0 +1,16 @@
+When you run a simple "Hello World" program in Java, at least two threads run concurrently
+
+Main Thread: This is the primary thread where the main method is executed.
+It handles the execution of your "Hello World" code.
+
+Garbage Collection (GC) Thread: Java automatically starts background threads that manage memory cleanup,
+primarily the garbage collector. This thread runs concurrently to ensure efficient memory management
+by reclaiming unused objects.
+
+In addition to these, depending on the specific JVM and system configuration,
+other threads might also be running, such as:
+
+Finalizer thread: Handles the finalization of objects before they are garbage collected.
+JIT (Just-In-Time) Compiler thread: Optimizes bytecode to machine code at runtime.
+However, for a basic program like "Hello World," the main focus is typically on the
+main thread and the garbage collection thread.
