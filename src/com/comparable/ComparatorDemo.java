@@ -1,7 +1,6 @@
 package com.comparable;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 
 // Comparator: It is used to define custom sorting logic externally.
