@@ -1,4 +1,4 @@
-package com.stream.map;
+package com.stream.flatmap;
 
 import java.util.ArrayList;
 import java.util.Arrays;
