@@ -23,6 +23,8 @@ class BetterSingleton {
 
 }
 
+// The safest way to prevent breaking singleton is by using an Enum Singleton,
+// as it automatically handles serialization, reflection, and thread safety.
 enum EnumSingleton {
     INSTANCE;
 
